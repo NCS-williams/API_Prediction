@@ -1,0 +1,52 @@
+
+        Sales Prediction and Trend Analysis Report
+        =========================================
+        
+        Target Product: Total_Sales
+        Analysis Date: 2025-06-29 21:25:45
+        
+        Data Overview:
+        - Total Records: 2076
+        - Date Range: 2014-02-01 00:00:00 to 2019-10-08 00:00:00
+        - Products Analyzed: M01AB, M01AE, N02BA, N02BE, N05B, N05C, R03, R06
+        
+        Model Performance:
+        
+        RandomForest:
+          - MAE: 11.51
+          - RMSE: 15.99
+          - R²: 0.547
+        XGBoost:
+          - MAE: 12.34
+          - RMSE: 17.28
+          - R²: 0.471
+        LightGBM:
+          - MAE: 10.87
+          - RMSE: 14.96
+          - R²: 0.603
+        GradientBoosting:
+          - MAE: 10.67
+          - RMSE: 14.67
+          - R²: 0.618
+        Ridge:
+          - MAE: 9.76
+          - RMSE: 13.54
+          - R²: 0.675
+        ElasticNet:
+          - MAE: 11.57
+          - RMSE: 16.09
+          - R²: 0.541
+        
+        Trend Analysis:
+        - Trend Direction: Decreasing
+        - Trend Slope: -0.83 units/month
+        - Seasonal Strength: 0.17
+        - Peak Sales Month: 1
+        - Lowest Sales Month: 7
+        
+        
+        Future Predictions:
+        - Prediction Period: 30 days
+        - Average Predicted Sales: 69.74
+        - Model Used: Ridge
+        
